@@ -18,13 +18,16 @@
 
 ## Stage 2
 
-會進到一個網站，可以一位一位爆破密碼，但是一個 Session 猜錯會被鎖起來所以要一直清 cookie。
-不然你不想工人智慧的話你抓一下 HTTP Request 會發現有一個 Post Request 參數 `c` 會回傳你猜的密碼 digit，注意到他是看每個 session 猜的順序所以就可以寫爆破的腳本了
+會進到一個網站，可以一位一位爆破數字密碼，但是一個 Session 猜錯一次就會被鎖起來所以要一直清 cookie。
+
+不然你不想工人智慧的話你抓一下 HTTP Request 會發現它會發 Post Request 並且參數 `c` 是你當下猜的密碼的那個數字，注意到他是看每個 session 猜的順序所以就可以寫爆破的腳本了
 
 ## Exploit
 
-QRCode 見 `qrcode.py`
+QR code 見 `assemble_qrcode.py`
+
 爆破腳本見 `guess.py`
+
 (如果網站下線了就算了)
 
 ## Acknowledgement
