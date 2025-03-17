@@ -30,3 +30,4 @@ QRCode 見 `qrcode.py`
 ## Acknowledgement
 
 - [Tony](https://t510599.github.io/)
+- [Vincent55](https://vincent55.tw/)

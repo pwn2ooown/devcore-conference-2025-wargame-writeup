@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 url = 'http://hierophant-project.website'
 
-password_len = 9 # By social engineering
+password_len = 9 # By social engineering Vincent55
 digits = "0123456789"
 password = ""
 
